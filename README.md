@@ -1,2 +1,2 @@
 ## Tests
-Each folder is a different project in test.
+Each folder is a different project being tested.
