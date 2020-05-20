@@ -15,3 +15,5 @@ document.getElementById("content").innerHTML = document.getElementById("english"
 function changeLanguage(lang) {
     document.getElementById("content").innerHTML = document.getElementById(lang).innerHTML;
 }
+
+document.getElementById("content").innerHTML = document.getElementById("english").innerHTML;
