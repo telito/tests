@@ -13,5 +13,4 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
-© 2020 GitHub, Inc.
 </script>
