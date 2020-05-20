@@ -23,6 +23,12 @@ function changeLanguage(lang) {
     
 <!-- JavaScript -->  
     
+<script type="text/javascript">
+function changeLanguage(lang) {
+    document.getElementById("content").innerHTML = document.getElementById(lang).innerHTML;
+}
+</script>
+    
   </head>
 <body>
    
@@ -44,8 +50,13 @@ function changeLanguage(lang) {
 document.getElementById("content").innerHTML = document.getElementById("english").innerHTML;
 </script>
 
--->
 <script src='/js/index.js' </script>
+
+-->
+
+<script type="text/javascript">
+document.getElementById("content").innerHTML = document.getElementById("english").innerHTML;
+</script>
 
 </body>
 </html>
