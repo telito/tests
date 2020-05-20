@@ -11,3 +11,8 @@ document.getElementById("content").innerHTML = document.getElementById("english"
 </script>
 
 */
+
+<script type="text/javascript">
+function changeLanguage(lang) {
+    document.getElementById("content").innerHTML = document.getElementById(lang).innerHTML;
+}
