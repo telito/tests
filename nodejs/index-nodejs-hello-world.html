@@ -28,7 +28,22 @@
         <h1>Header 1</h1>
     <p>Paragraph</p>
     <h2>Header 2</h2>
-    <script> type='text/javascript' src='https://danielramosbh74.github.io/tests/nodejs/nodejs-hello-world.js' </script>
+<script type='text/javascript'>
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello World');
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+</script>
     <p>Paragraph</p>
     <h3>Header 3</h3>
     <p>Paragraph</p>
